@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg ,lightgreen,blueviolet);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: white;
+    width: 320px;
+    height: 470px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-img{
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background: no-repeat, center;
+    background-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.card1{
+    background-image:url(samsung2.jpg);
+}
+.card2{
+    background-image:url(apple11.png);
+}
+.card3{
+    background-image:url(oppo.png);
+}
+.card4{
+    background-image:url(laptop\ hp1.png);
+}
+.card5{
+    background-image:url(dell\ \ \(2\).png);
+}
+.card6{
+    background-image:url(asus\ \(2\).png);
+}
+.card7{
+    background-image:url(ipad2\ \(2\).png);
+}
+.card8{
+    background-image:url(samsung\ fold\ \(1\).jpg);
+}
+.card9{
+    background-image:url(pngwing.com\ \(1\).png);
+}
+.card p{
+    padding: 10px;
+}
+.card h2{
+    padding: 10px;
+}
+.card a{
+    background:black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+.card:hover{
+    background:linear-gradient(45deg , lightblue,black);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .8s ease;
+    text-decoration: none;
+}
+.card .card-img:hover{
+    transform: scale(1.3)
+}
+.card a:hover{
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 15px 15px 15px 15px;
+}
